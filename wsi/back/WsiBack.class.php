@@ -38,12 +38,10 @@ class WsiBack {
 	 * Init de la partie Admin
 	 */
 	public function wp_splash_image_back_init() {
-	
+
 		// Chargement de l' I18n
-		if (function_exists('load_plugin_textdomain')) {
-			load_plugin_textdomain('wp-splash-image', WsiCommons::getURL().'/languages', $wsi_plugin_dir.'/languages' );
-		}
-	
+        load_plugin_textdomain('wp-splash-image', false, 'wsi/languages');
+
 	}
 	
 	/**
