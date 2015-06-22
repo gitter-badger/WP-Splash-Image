@@ -94,6 +94,9 @@ You can also email me the source code of the page on which you expect to see the
  
 == Changelog ==
 
+= 3.0.0 =
+* ...
+
 = 2.7.2 =
 * Change display time to new input type "number" (no limit).
 
